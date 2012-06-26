@@ -1,0 +1,30 @@
+{
+    "name": "oneiros",
+    "title": "Oneiros",
+    "main": "./dist/oneiros.js",
+    "description": "Oneiros is a fast, concise and minimalist JavaScript library that aims to simplify the development of userscripts and other scripts. Oneiros is designed to change the way that you write JavaScript.",
+    "version": "0.1pre",
+    "homepage": "http://oneirosdream.github.com/oneiros/",
+    "author": {
+        "name": "PyroStorm"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/oneirosdream/oneiros.git"
+    },
+    "bugs": {
+        "url": "https://github.com/oneirosdream/oneiros/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/oneirosdream/oneiros/blob/master/MIT-LICENSE.txt"
+        }
+    ],
+    "dependencies": {},
+    "devDependencies": {
+        "grunt-compare-size": ">=0.1.0",
+        "grunt": ">=0.3.9"
+    },
+    "keywords": []
+}

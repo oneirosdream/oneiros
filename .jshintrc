@@ -1,0 +1,17 @@
+{
+	"options": {
+		"curly": true,
+		"eqnull": true,
+		"eqeqeq": true,
+		"expr": true,
+		"latedef": true,
+		"undef": true,
+		"noarg": true,
+		"smarttabs": true,
+		"trailing": true
+	},
+	
+	"globals": {
+		"window": true
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"options": {
+		"strict": true,
+		"evil": true,
+		"browser": true
+	},
+	
+	"globals": {
+		"window": true
+	}
+}

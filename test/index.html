@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Oneiros Test Suite</title>
+	<link rel="Stylesheet" media="screen" href="qunit/qunit/qunit.css" />
+	<!-- Includes -->
+
+	<script src="qunit/qunit/qunit.js"></script>
+	<!-- Loads minified version if min=true is present in the search -->
+	<script>
+		(function() {
+			var src = "../dist/oneiros.js";
+
+			QUnit.config.urlConfig.push( "min" );
+			if ( QUnit.urlParams.min ) {
+				src = "../dist/oneiros.min.js";
+			}
+			
+			document.write( "<script src='" + src + "'><\/script>" );
+		})();
+	</script>
+
+	<script src="unit/localStorage.js"></script>
+	<script src="unit/iteration.js"></script>
+</head>
+
+<body>
+	<div id="qunit"></div>
+</body>
+</html>

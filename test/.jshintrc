@@ -1,0 +1,20 @@
+{
+	"globals": {
+		"asyncTest": false,
+		"deepEqual": false,
+		"equal": false,
+		"expect": false,
+		"module": false,
+		"notDeepEqual": false,
+		"notEqual": false,
+		"notStrictEqual": false,
+		"ok": false,
+		"oneiros": true,
+		"QUnit": false,
+		"raises": false,
+		"start": false,
+		"stop": false,
+		"strictEqual": false,
+		"test": false
+	}
+}
